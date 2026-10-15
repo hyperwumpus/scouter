@@ -1,6 +1,14 @@
-# Scouter
+# Scouter Business v1 — guided by Glitch
 
-The current Scouter app is in [`scouter/`](scouter/). It includes the Opportunity Radar, Google Places and YouTube discovery, explainable website opportunity scoring, outreach drafts, a sales pipeline, quotes, payments, expenses, and an Odd Jobs episode journal.
+The current focused prototype is in [`scouter-glitch/`](scouter-glitch/). It includes live Google Places discovery, a category picker, town/ZIP searches, sourced contact/customer-path reports, optional website comparison, a shortlist and Home Screen app assets.
+
+Run with Node.js 24+: `cd scouter-glitch && npm start`, then open http://127.0.0.1:4319. See [deployment requirements](scouter-glitch/DEPLOYMENT.md) and [product scope](scouter-glitch/PRODUCT.md). API keys and databases are not uploaded. This source upload does not deploy the backend; the original GitHub Pages prototype stays intact.
+
+---
+
+# Earlier Scouter experiments
+
+The earlier Scouter app is in [`scouter/`](scouter/). It includes the Opportunity Radar, Google Places and YouTube discovery, explainable website opportunity scoring, outreach drafts, a sales pipeline, quotes, payments, expenses, and an Odd Jobs episode journal.
 
 ## Run the current app
 

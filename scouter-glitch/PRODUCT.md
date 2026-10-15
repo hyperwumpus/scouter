@@ -17,3 +17,9 @@ Further API candidates, not working features: owner-authorized Business Profile 
 ## Creator later
 
 Start with a creator's own authorized channel, an evidence-based report, one improvement experiment, and a follow-up. Add other platforms after checking data access and permissions. Asset creation can start as a service before becoming a built-in generator. Do not market a global creator rank or growth guarantee.
+
+## Working lead-file and Creator iteration
+
+The local app now includes private lead files with upload storage, follow-up logs, proposed scope/pricing, a deterministic proposal PDF generator, an unapproved HTML concept starter, AI handoff briefs and review-only email drafts. Customer files and records are excluded from GitHub. The generator uses the user's entered scope/terms/price, not inferred pricing or an AI account.
+
+Creator materials review works with user-supplied bios, goals, research and peer references. The optional public YouTube Data API route is implemented and fixture-tested but live access is blocked until a valid enabled key is configured. Twitch, Instagram and TikTok remain materials-only. No direct Claude/OpenAI account connection or Gmail OAuth send service is implemented; copy/download handoffs and a user-initiated Gmail compose link are provided.

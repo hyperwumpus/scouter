@@ -4,7 +4,7 @@ Open http://127.0.0.1:4319 while the local server is running.
 To restart, double-click “Launch Scouter.command” and keep its window open.
 This is a local preview, not a deployed public backend. The restored original public Scouter is unchanged.
 
-Requires Node.js 24+. No package installation is needed. Alternatively run npm start here. The launcher reuses the existing connection on Misael’s computer when available; another computer needs its own Google Places API key, entered through Connect Google. Existing Google usage/billing still applies. No additional API subscription was added.
+Requires Node.js 24+. Run npm ci once to install the PDF dependency. Alternatively run npm start here. The launcher reuses the existing connection on Misael’s computer when available; another computer needs its own Google Places API key, entered through Connect Google. Existing Google usage/billing still applies. No additional API subscription was added.
 
 WORKFLOW
 1. Enter business type/name and town; scan live Google Places results.
@@ -22,3 +22,12 @@ Your key stays server-side. The server binds to this computer’s loopback inter
 
 VERIFICATION
 Ten automated tests pass: evidence extraction, honest healthy/error/missing-data reports, private-network address blocking, API write protection, revision conflicts and limited persistence. Live Google Places search for Kainoa’s returned one listing. Its homepage and linked Contact page returned HTTP 200 with no additional issues established. See DEPLOYMENT.md for publishing limits and PRODUCT.md for the Business / Creator plan.
+
+PRIVATE LEAD FILES + CREATOR UPDATE
+Install dependencies with npm ci before npm start. Lead files keep your own business/creator records, uploaded PDFs/reels/images/text, scope, price, terms, concept link, follow-up date and activity log in the private local data directory. These records and uploads are never part of source uploads. Back up that directory privately; GitHub is not its backup.
+
+Generate an editable-scope proposal PDF, an unapproved HTML concept starter, an AI work brief or an email draft. Brief copying and external tool links are handoffs, not connected AI accounts. Files are not automatically transmitted. Gmail compose opens only when you supply a recipient and choose the button; it does not send or attach files. Bulk outreach is a downloadable review queue, not automatic sending.
+
+Creator mode reviews supplied profile descriptions, goals and references across YouTube, Twitch, Instagram and TikTok. Public YouTube channel metadata and recent upload titles/dates can be requested with a separately configured YouTube Data API key. No key is included. The current Places connection does not have working YouTube access. Private analytics, visual thumbnail analysis, automated peer audits and global rankings are not implemented. A materials review is explicitly labelled as supplied evidence, not a live account audit.
+
+Fifteen automated checks cover existing reports plus private attachments, file types, media ranges, draft PDFs, conflicts and Creator source labels. Local browser checks verified lead files, the Yellowstone references, the AI brief and a supplied-materials Creator review.

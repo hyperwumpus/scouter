@@ -1,6 +1,16 @@
-# Scouter
+# Scouter — guided by Glitch
 
-The current Scouter app is in [`scouter/`](scouter/). It includes the Opportunity Radar, Google Places and YouTube discovery, explainable website opportunity scoring, outreach drafts, a sales pipeline, quotes, payments, expenses, and an Odd Jobs episode journal.
+The current focused prototype is in [`scouter-glitch/`](scouter-glitch/): Business discovery, sourced customer-path reports, a first Creator materials-review mode, private lead files, reference uploads, follow-up notes, proposal PDFs, concept starters and review-only outreach drafts.
+
+**Run:** Node.js 24+, `cd scouter-glitch`, `npm ci`, `npm start`, then http://127.0.0.1:4319. See [scope and limits](scouter-glitch/PRODUCT.md) and [publishing requirements](scouter-glitch/DEPLOYMENT.md). YouTube live access requires a valid enabled key; other creator platforms currently use supplied materials. AI briefs are copy/download handoffs. Gmail compose does not send messages or attach files.
+
+**Privacy:** Customer files, pricing records, databases, API keys and local workspace data are not included in this repository. This source upload does not host the private server. GitHub Pages still serves the original static prototype.
+
+---
+
+# Earlier Scouter experiments
+
+The earlier Scouter app is in [`scouter/`](scouter/). It includes the Opportunity Radar, Google Places and YouTube discovery, explainable website opportunity scoring, outreach drafts, a sales pipeline, quotes, payments, expenses, and an Odd Jobs episode journal.
 
 ## Run the current app
 

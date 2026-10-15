@@ -3,3 +3,6 @@
 *.sqlite*
 node_modules/
 .DS_Store
+attachments/
+*.pdf
+*.mp4

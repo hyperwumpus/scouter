@@ -15,3 +15,9 @@ Once served through a working HTTPS origin with the API connected, open Scouter 
 ## Local
 
 Node 24+, `npm start`, then http://127.0.0.1:4319. Set GOOGLE_PLACES_API_KEY or enter a key locally. Source contains no credentials. npm test runs automated checks.
+
+## Private files and backups
+
+Lead records and attachments stay under SCOUTER_DATA_DIR (or .data locally), outside public/. Do not host that directory, commit it, or include it in source archives. The current loopback server protects API reads/writes and attachment reads; it is not a production multi-user account service. Public deployment still needs owner authentication, durable private storage, rate/usage controls and explicit approval of hosting costs/access.
+
+Before exposing the app through a tunnel or public host, obtain explicit owner approval of the service, access controls, and private data passing through it. A temporary link requires the laptop awake and online; it is not permanent hosting.

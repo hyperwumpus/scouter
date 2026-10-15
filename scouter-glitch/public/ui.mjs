@@ -38,3 +38,5 @@ export function download(name, content, type = 'application/json') {
 }
 export function localDate() { const d = new Date(); return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`; }
 export function calendarDate(v) { return v ? new Date(`${v}T12:00:00`).toLocaleDateString(undefined, { month: 'short', day: 'numeric', year: 'numeric' }) : 'No date'; }
+
+export function replace(el,...children){el.replaceChildren(...children.flat(Infinity).filter(c=>c!==null&&c!==undefined&&c!==false));}
